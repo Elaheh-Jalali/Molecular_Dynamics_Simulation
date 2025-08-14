@@ -112,7 +112,7 @@ gedit topol.top
 # Add the following ligand position restraints block at the end of the file, 
 # immediately after the protein position restraints section:
 
-; Ligand position restraints
+        ; Ligand position restraints
 		#ifdef POSRES
 		#include "posre_LIG.itp"
 		#endif
